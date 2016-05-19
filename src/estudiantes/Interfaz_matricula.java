@@ -49,7 +49,7 @@ public class Interfaz_matricula extends javax.swing.JInternalFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         jComboBox_materia.setForeground(new java.awt.Color(153, 0, 0));
         jComboBox_materia.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));

@@ -29,7 +29,7 @@ public class Interfaz_materia extends javax.swing.JInternalFrame {
         jButton2 = new javax.swing.JButton();
         jComboBox_ih = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(204, 204, 255));
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);

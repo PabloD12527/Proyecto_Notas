@@ -25,7 +25,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,7 +41,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
             }
         });
         jDesktopPane1.add(jButton1);
-        jButton1.setBounds(20, 30, 150, 70);
+        jButton1.setBounds(20, 40, 150, 70);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(153, 0, 0));
@@ -52,7 +52,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
             }
         });
         jDesktopPane1.add(jButton2);
-        jButton2.setBounds(390, 30, 150, 70);
+        jButton2.setBounds(570, 40, 150, 70);
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton3.setForeground(new java.awt.Color(153, 0, 0));
@@ -63,7 +63,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
             }
         });
         jDesktopPane1.add(jButton3);
-        jButton3.setBounds(200, 30, 160, 70);
+        jButton3.setBounds(200, 40, 160, 70);
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton4.setForeground(new java.awt.Color(153, 0, 0));
@@ -74,18 +74,12 @@ public class Intefaz_principal extends javax.swing.JFrame {
             }
         });
         jDesktopPane1.add(jButton4);
-        jButton4.setBounds(560, 30, 150, 70);
+        jButton4.setBounds(390, 40, 150, 70);
 
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(153, 0, 0));
-        jButton5.setText("Estudiantes");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(jButton5);
-        jButton5.setBounds(20, 30, 150, 70);
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ricardo\\Pictures\\M1.jpeg")); // NOI18N
+        jLabel1.setText("jLabel1");
+        jDesktopPane1.add(jLabel1);
+        jLabel1.setBounds(0, 10, 730, 360);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -133,10 +127,6 @@ public class Intefaz_principal extends javax.swing.JFrame {
     nota.show();
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Interfaz_estudiantes estu = new Interfaz_estudiantes();
         jDesktopPane1.add(estu);
@@ -180,7 +170,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JDesktopPane jDesktopPane1;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
