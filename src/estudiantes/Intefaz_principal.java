@@ -26,6 +26,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,7 +42,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
             }
         });
         jDesktopPane1.add(jButton1);
-        jButton1.setBounds(20, 40, 150, 70);
+        jButton1.setBounds(60, 170, 150, 70);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(153, 0, 0));
@@ -80,6 +81,17 @@ public class Intefaz_principal extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
         jDesktopPane1.add(jLabel1);
         jLabel1.setBounds(0, 10, 730, 360);
+
+        jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(153, 0, 0));
+        jButton5.setText("Estudiantes");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(jButton5);
+        jButton5.setBounds(20, 40, 150, 70);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -134,6 +146,10 @@ public class Intefaz_principal extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
     /**
      * @param Args el argumento de línea de comandos
      */
@@ -170,6 +186,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
